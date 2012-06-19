@@ -1,0 +1,42 @@
+/*
+Theme Name: Keriat
+Theme URI: http://keriat.ru
+Author: Fruitware | Serge B.
+Author URI: http://keriat.ru
+Description: Theme for wordpress trainings
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+*/
+
+header h1 a {
+	background: url(images/logo.png);
+	width: 256px;
+	height: 256px;
+	text-indent: -999px;
+	overflow: hidden;
+	display: block;
+}
+
+section.posts article {
+	padding: 5px;
+	margin: 10px 0;
+	background: gray;
+}
+
+section.posts article h2
+{
+	font: 20px Arial;
+	margin: 0 0 10px;
+}
+
+section.posts article p
+{
+	margin: 0 0 10px;
+}
+
+section.posts article .meta
+{
+	background: white;
+	padding: 5px;
+}
